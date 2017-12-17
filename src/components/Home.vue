@@ -4,6 +4,8 @@
       <div class="column is-8">
         <h1>All Contacts</h1>
 
+        <router-link class="button is-primary" to="/add">Add New Contact</router-link>
+
         <div class="loader-section" v-if="loading">
           <div class="user-list">
             <div class="columns">

@@ -50,6 +50,7 @@ export default {
   },
   methods: {
     saveContact () {
+      console.log('yeah');
       db.collection('contacts').add({
         firstname: this.firstname,
         lastname: this.lastname,
